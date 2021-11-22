@@ -18,7 +18,8 @@ To scrape the Google trends data, we’ll be using the Google Trends API library
 
 ## Installation
 
-To start with, you’ll need to install the trends scraper package. You can access the Google Trends API documentation on NPM. Before that, let’s create a folder for this particular project. After that, you can access the folder from your terminal. 
+
+To start with, you’ll need to install the trends scraper package. You can access the [Google Trends API documentation](https://www.npmjs.com/package/google-trends-api) on NPM. Before that, let’s create a folder for this particular project. After that, you can access the folder from your terminal. 
 
 When inside the folder, initialize NPM. You can initialize NPM by running npm init. Be sure to create an index.js file if one doesn't exist. Now you’re ready to install the trend scraper. To do that, run the following line of code in your terminal:
 
@@ -60,7 +61,7 @@ googleTrends.dailyTrends({
   })
   ``` 
   
-Now let's look at the code more closely. For the dailyTrend() method, there is only one required parameter: geo. This parameter provides the geographical location of the search trend. In this example, we use ‘AU’, which stands for Australia. You can access other country codes here. 
+Now let's look at the code more closely. For the dailyTrend() method, there is only one required parameter: geo. This parameter provides the geographical location of the search trend. In this example, we use ‘AU’, which stands for Australia. You can access other country codes [here.](https://github.com/datasets/country-codes/blob/master/data/country-codes.csv)
 
 In the example, we also include the optional parameter trendDate to signify the particular date to retrieve for the trend search. If you don’t supply a date, it defaults to the current date.
 
@@ -232,11 +233,6 @@ You can run each example by typing the following command in your terminal:
 
 
 For further examples, be sure to check out the documentation [here.](https://github.com/pat310/google-trends-api)
-
-
-
-
-
 
 
 
