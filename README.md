@@ -6,10 +6,6 @@ Google Trends Scraper
 - [Intro](#intro)
 - [Installation](#installation)
 - [Examples](#examples)
-  - [Example 1: Daily Trends Data](#example-1:daily-trends-data)
-  - [Example 2: Interest Over Time](#example-2:interest-over-time)
-  - [Example 3: Real-Time Trends](#example-3:real-time-trends)
-  - [Example 4: Related Queries](#example-4:related-queries) 
 - [Usage](#usage)
 
 Google Trends Scraper is a great market research tool. Finding out which keywords people are searching for can be essential to understanding societal sentiments and polarizations. In addition to this, it can be beneficial to companies seeking to gain insight into category trends, consumer search queries, and their competitors' performance.
